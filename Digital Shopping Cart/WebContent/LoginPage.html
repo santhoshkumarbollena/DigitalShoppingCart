@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+<script src="angular.js"></script>
+<link rel="stylesheet" type="text/css" href="HomePageStyle.css">
+
+</head>
+<body >
+<div class="Wrapper">
+			<header ng-include="'Header.html'"></header>
+			<div>
+				<table align="center">
+					<tr>
+						<td><b><i>UserName:</i></b></td>
+						<td><input type="text" name="UserName" required></td>
+					</tr>
+					<tr>
+						<td><b><i>Password:</i></b></td>
+						<td><input type="password" name="Password" required></td>
+					</tr>
+					<tr >
+					<td><input type="submit" class="registerButton" value="login"></td>
+					<td><input type="reset" class="registerButton" value="reset"></td>
+					</tr>
+				</table>
+			</div>
+			<footer ng-include="'Footer.html'"></footer>
+</div>
+
+</body>
+</html>
