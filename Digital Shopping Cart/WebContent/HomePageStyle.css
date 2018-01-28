@@ -1,68 +1,100 @@
 @CHARSET "ISO-8859-1";
 .Wrapper
 {
-	width: windows.width;
+	width: 100%;
 	background: white;
 	margin: 0 auto 0 auto;	
-	height: windows.height;
+	height: 100%;
 }
 .registerButton
 {
 	height: 40px;
 	width:80px;
-	background: #6f6fff;
-	color:black;
+	background: #173139;
+	color:#ffffff;
 	font-style: italic;
+	font-weight: bold;
 }
 
 .heading{
-	height: 60px;
+	height: 50px;
 	background: #173139;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;	
+	color:white;
 }
 .searchclass
 {
 	color:#9d9d9d;
 	height:20px;
-	width:20%;
+	width:30%;
+	border:1;
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-weight: bold;
+}
+p{
+	font-weight: bold;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    height:250px;
+	width:250px;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 .HomeButtons
 {
 	border:0;
 	height: 40px;
 	width: 10%;
-	background: #6f6fff;
-	color:black;
+	background: #173139;
+	color:#ffffff;
 	font-style: italic;
+	font-weight: bold;
 }
 .navigation
 {
 	height: 50px;
-	background: #6f6fff;
+	background: #173139;
 	width:widows.width;
+	color:white;
+	font-weight: bold;
 	
 }
 .content
 {
-	min-height: 400px;
-	background: white;
-	width: 80%;
+	min-height: 450px;
+	background: #ffffff;
+	width: 100%;
 	float: left;
 }
-.sidebar {
-	width: 20%;
-	float: right;
-	background: #ffffff;
-	min-height: 400px;
-	
-}
+
+
 .footer
 {
-	clear:both;
 	background: #173139;
-	height: 40px;
+	height: 30%;
+	width:100%;
 	color: #ffffff;
-	text-align: center;
-	padding: 10px;
+	text-align:center;
+	
+	bottom:0;
+    
 }
